@@ -1,4 +1,3 @@
-import illustrationImg from '../assets/images/illustration.svg';
 import logoImg from '../assets/images/logo.png';
 import googleIconImg from '../assets/images/google-icon.svg';
 import signinIcon from '../assets/images/signin1.svg';
@@ -23,17 +22,20 @@ export function Home() {
           <form>
             <input
               type="text"
-              placeholder="Login"
+              placeholder="Nome de usuário"
 
             />
             <input
               type="text"
               placeholder="Senha"
-
             />
             <Button type="submit">
               <img src={signinIcon} alt="Icon signin" width="10%"/>
-              Login
+              Entrar
+            </Button>
+            <Button type="submit">
+              <img src={signinIcon} alt="Icon signin" width="10%"/>
+              Registra-se
             </Button>
           </form>
         </div>
